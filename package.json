@@ -1,0 +1,24 @@
+{
+  "name": "gmail",
+  "version": "1.0.0",
+  "description": "\"sending email programatically\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch backend --exec node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "homepage": "."
+  },
+  "author": "Philip Macharia",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0",
+    "path": "^0.12.7"
+  }
+}
